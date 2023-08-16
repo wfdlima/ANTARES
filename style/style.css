@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:'noto sans'; 
+ } 
+ 
+ 
+ main{
+    border:5px solid black;
+    width:100vw; 
+    height:100vh;
+    background:#f3f3f3;
+    display:flex;
+    /*eixo X*/
+    justify-content:center;
+    /*eixo Y*/
+    align-items:center;
+    
+
+}
+
+
+/*form é uma tag - não precisa de seletor () . ou #*/
+form{
+    border: 2px solid black;
+    display:flex;
+    /*eixo X*/
+    justify-content:center;
+    /*eixo Y*/
+    align-items:center;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 10px;
+    background-color:light gray;
+    box-shadow: aquamarine 0px 0px 90px;
+    
+}
+
+
+/*textfield é uma classe e o seletor da classe é um .*/
+.textfield{
+    width:77%;
+    display:flex;
+    flex-direction: inline;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    
+}
+
+.textfield > input::placeholder{
+    display:flex;    
+    justify-content:center;    
+    align-items:center;   
+    flex-direction: inline;
+    text-align: center;
+    color:black;
+}
+
+.btn{
+    margin-top: 10px;
+    width:50%;
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+
+    
+
+
