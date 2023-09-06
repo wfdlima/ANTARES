@@ -110,3 +110,18 @@ li .sub-menu a:hover{
     left:260px;
     width: calc(100%-200px);
 }
+.form-floating label{left: 8px}
+
+#btn-salvar{ background-color:lightseagreen; 
+    border: solid black 1px;
+    height:48px;
+    width: 305px;
+    
+
+}
+.form-button{
+        border:sso solid red;
+        padding-left: 165px;
+
+
+}

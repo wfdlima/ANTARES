@@ -10,48 +10,54 @@
 
         <form class="form-body">
             <div class="row mb-3">
-                    <div class="form-float">
-                        <input type="text" class="form-controle"
-                            id="cep" placeholder="Digite o seu CEP"
-                            minlength="8" maxlength="8" required>
-                        <label for="cep">Digite o seu cep</label>
-                    </div>
+                <div class="form-floating col-12 col-sm-6 mb-3 m-sm-0">
+                    <input type="text" class="form-control" id="cep" placeholder="Digite o seu CEP" minlength="8"
+                        maxlength="8" required>
+                    <label for="cep">Digite o seu cep</label>
+                </div>
             </div>
 
-            <div class="form-float col-12 col-sm-6">
-                <input type="text" class="form-controle "
-                id="rua" placeholder="rua"
-                required disable>
-                <label for="rua">Rua</label>
+            <div class="row mb-3">
+
+                <div class="form-floating col-12 col-sm-3 mb-3 m-sm-0">
+                    <input type="text" class="form-control " id="rua" placeholder="rua" required disabled>
+                    <label for="rua">Rua</label>
+                </div>
+
+
+
+                <div class="form-floating col-12 col-sm-3 mb-3 m-sm-0">
+                    <input type="text" class="form-control" id="numero" placeholder="Digite o número da sua residência">
+                    <label for="numero">Digite o número da sua residência</label>
+                </div>
 
             </div>
-            <div class="form-float col-12 col-sm-6">
-                <input type="text" class="form-controle "
-                id="numero" placeholder="Digite o número da sua residência"
-                required disabled>
-                <label for="numero">Digite o número da sua residência</label>
-            </div>
-            <div class="form-float col-12 col-sm-6">
-                <input type="text" class="form-controle"
-                id="complemento" placeholder="Digite o complemento"
-                required disable>
-                <label for="complemento">Digite o complemento</label>
 
+            <div class="row mb-3">
+                <div class="form-floating col-12 col-sm-3 mb-3 m-sm-0">
+                    <input type="text" class="form-control" id="complemento" placeholder="Digite o complemento">
+                    <label for="complemento">Digite o complemento</label>
+                </div>
+
+
+
+                <div class="form-floating col-12 col-sm-3 mb-3 m-sm-0">
+                    <input type="text" class="form-control col-12 col-sm-6" id="bairro"
+                        placeholder="Digite o seu bairro" required disabled>
+                    <label for="bairro">Digite o seu bairro</label>
+                </div>
             </div>
-            <div class="form-float">
-                <input type="text" class="form-controle col-12 col-sm-6"
-                id="bairro" placeholder="Digite o seu bairro"
-                required disable>
-                <label for="bairro">Digite o seu bairro</label>
-            </div>
-            <div class="form-float">
-                <input type="text" class="form-controle col-12 col-sm-6"
-                id="cidade" placeholder="Digite a sua cidade"
-                required disable>
-                <label for="cidade">Digite a sua cidade</label>
-            </div>
-            <div class="form-float">
-                <select id="estado" required disabled>
+
+            <div class="row mb-3">
+                <div class="form-floating col-12 col-sm-3 mb-3 m-sm-0">
+                    <input type="text" class="form-control col-12 col-sm-6" id="cidade"
+                        placeholder="Digite a sua cidade" required disabled>
+                    <label for="cidade">Digite a sua cidade</label>
+                </div>
+            
+            
+                <div class="form-floating col-12 col-sm-3 mb-3 m-sm-0">
+                    <select id="estado" class="form-select" required disabled>
                         <option selected>Estado</option>
                         <option value="AC">Acre</option>
                         <option value="AL">Alagoas</option>
@@ -81,21 +87,16 @@
                         <option value="SE">Sergipe</option>
                         <option value="TO">Tocantins</option>
                         <option value="EX">Estrangeiro</option>
-                </select>  
-                
-                <div class="form-button">
-                    <button id="btn-salvar" class="btn btn-primary" type="submit">Cadastrar</button>
+                    </select>
 
+                    
                 </div>
-
-
-
-
-
-
-                
             </div>
 
+            <div class="form-button">
+                <button id="btn-salvar" class="btn btn-primary" type="submit">Cadastrar</button>
+
+            </div>
 
 
 
