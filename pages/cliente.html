@@ -2,7 +2,7 @@
 
 
 
-    <form class="container">
+    <div class="container">
         <div class="form-header">
             <h2>Cadastre o cliente</h2>
             <p>Preencha os campos</p>
@@ -12,7 +12,7 @@
             <div class="row mb-3">
                 <div class="form-floating col-12 col-sm-6 mb-3 m-sm-0">
                     <input type="text" class="form-control" id="cep" placeholder="Digite o seu CEP" minlength="8"
-                        maxlength="8" required>
+                        maxlength="8" data-input required>
                     <label for="cep">Digite o seu cep</label>
                 </div>
             </div>
@@ -20,14 +20,14 @@
             <div class="row mb-3">
 
                 <div class="form-floating col-12 col-sm-3 mb-3 m-sm-0">
-                    <input type="text" class="form-control " id="rua" placeholder="rua" required disabled>
+                    <input type="text" class="form-control " id="rua" placeholder="rua" required disabled data-input>
                     <label for="rua">Rua</label>
                 </div>
 
 
 
                 <div class="form-floating col-12 col-sm-3 mb-3 m-sm-0">
-                    <input type="text" class="form-control" id="numero" placeholder="Digite o número da sua residência">
+                    <input type="text" class="form-control" id="numero" placeholder="Digite o número da sua residência" data-input>
                     <label for="numero">Digite o número da sua residência</label>
                 </div>
 
@@ -35,7 +35,7 @@
 
             <div class="row mb-3">
                 <div class="form-floating col-12 col-sm-3 mb-3 m-sm-0">
-                    <input type="text" class="form-control" id="complemento" placeholder="Digite o complemento">
+                    <input type="text" class="form-control" id="complemento" placeholder="Digite o complemento" data-input>
                     <label for="complemento">Digite o complemento</label>
                 </div>
 
@@ -43,7 +43,7 @@
 
                 <div class="form-floating col-12 col-sm-3 mb-3 m-sm-0">
                     <input type="text" class="form-control col-12 col-sm-6" id="bairro"
-                        placeholder="Digite o seu bairro" required disabled>
+                        placeholder="Digite o seu bairro" required disabled data-input>
                     <label for="bairro">Digite o seu bairro</label>
                 </div>
             </div>
@@ -51,7 +51,7 @@
             <div class="row mb-3">
                 <div class="form-floating col-12 col-sm-3 mb-3 m-sm-0">
                     <input type="text" class="form-control col-12 col-sm-6" id="cidade"
-                        placeholder="Digite a sua cidade" required disabled>
+                        placeholder="Digite a sua cidade" required disabled data-input>
                     <label for="cidade">Digite a sua cidade</label>
                 </div>
             
@@ -106,8 +106,8 @@
 
 
 
-    </form>
+    </div>
 
-<script src="/js/cliente.js"></script>
+<script src="/js/client.js"></script>
 
 </div>
